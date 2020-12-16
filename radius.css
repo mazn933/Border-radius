@@ -1,0 +1,117 @@
+body{margin: 0px;
+    padding: 0px;}
+
+.container-0{min-height:100vh;
+             width:100%;
+             background-color: rgb(236, 241, 243);
+             display:flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;}
+
+.box-0{
+    width:300px;
+    height:200PX;
+    background-color: #026654;
+    margin: 0 auto;
+   border: 2px solid rgb(128, 69, 2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+
+
+
+.btn-grad {}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+  
+ 
+
+.container-1{
+    width:400px;
+    height:300px;
+    background-color: rgb(50, 56, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    box-shadow: .5px 10px 4px rgb(47, 48, 44);
+
+  }
+
+.colors{display: flex;
+        width:30%;
+        justify-content: space-between;
+      }
+
+.button{
+    text-align: center;
+}
+ .top-1{display: flex;
+       justify-content:space-around;
+
+ }
+
+ input{padding:7px 3px;
+       border-radius:5px;
+       border:.5px solid rgb(126, 92, 84);
+       box-shadow:1px 1px 1px rgb(33, 46, 34);
+       font-weight: 600;
+       outline:none}
+
+.btn{cursor: pointer;
+      padding:6px 60px;
+      border: none;
+      color: white;
+      font-weight: 600;
+      background-image: linear-gradient(to right, #197528 0%, #197528  51%, #035003  100%);
+      box-shadow:1px 1px 1px rgb(170, 167, 167);
+      border-radius:6px;
+      margin-left: 5px
+      ;}
+.clear{background-image: linear-gradient(to right, #cb3b3b 0%, #b31217  51%, #e52d27  100%);
+      box-shadow: 0 0 1px #eee;
+      border-radius: 6px;}
+
+.cp{cursor: pointer;
+      padding:12px 15px;
+      border: .1px solid white;
+      color: white;
+      font-weight: 600;
+      background-color:#2f89fc;
+      box-shadow:1px 1px 1px rgb(170, 167, 167);
+      border-radius:3px;
+      margin-left: 5px;}
+ 
+
+.copy{text-align: center;
+      }
+
+
+
+
+
+
+
